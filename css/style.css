@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }    
 
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
     display: inline-block;
 }   
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}    
 
 /* ====================================== */
 
@@ -17,6 +28,7 @@ a{
     position: absolute;
     width: 100%;
     top: 50px;
+    z-index: 99;
 }
 
 .navbar .navbar-link{
@@ -82,6 +94,27 @@ a{
     background-size: cover;
 }
 
+#banner2{
+    background: url(../images/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner3{
+    background: url(../images/banner3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner4{
+    background: url(../images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #banner .container{
     display: flex;
     justify-content: center;
@@ -132,6 +165,188 @@ a{
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     margin: 51px 0 40px;
+}
+
+#banner2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner2 .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 277px 0 272px;
+}
+
+#banner2 .container button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+    border: 0;
+    display: inline-flex;
+    padding: 15px 42px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #6A4DF4;
+}
+
+#banner2 .container h1{
+    width: 85%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 90px */
+}
+
+#banner2 .container p{
+    width: 621px;
+    color: #FFF;
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 51px 0 40px;
+}
+
+#banner3 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner3 .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 315px 0 272px;
+}
+
+#banner3 .container button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+    border: 0;
+    display: inline-flex;
+    padding: 15px 42px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #6A4DF4;
+}
+
+#banner3 .container h1{
+    width: 950px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 90px */
+}
+
+#banner3 .container p{
+    width: 621px;
+    color: #FFF;
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 51px 0 40px;
+}
+
+#banner4 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner4 .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 315px 0 272px;
+}
+
+#banner4 .container button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+    border: 0;
+    display: inline-flex;
+    padding: 15px 42px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #6A4DF4;
+}
+
+#banner4 .container h1{
+    width: 950px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 90px */
+}
+
+#banner4 .container p{
+    width: 621px;
+    color: #FFF;
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 51px 0 40px;
+}
+
+.main_banner_slider{
+    position: relative;
+}
+
+.main_banner_slider ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 53px;
+    display: flex;
+    column-gap: 2px;
+}
+
+.main_banner_slider ul li button{
+    width: 24px;
+    height: 24px;
+    border: 4px solid #4756DF;
+    background: #4756DF;
+    font-size: 0;
+    border-radius: 50%;
+}
+
+.main_banner_slider ul .slick-active button{
+    border-color: #FFF;
 }
 
 /* ============================================================================== */
