@@ -229,7 +229,7 @@ a{
 
 #banner3 .overlay{
     background: rgba(0, 0, 0, 0.6);
-    padding: 315px 0 272px;
+    padding: 431px 0 272px;
 }
 
 #banner3 .container button{
@@ -407,4 +407,327 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 120%; /* 24px */
+}
+
+/* ========================================================= */
+
+
+#service{
+    padding: 149px 0 103px;
+}
+
+#service .title{
+    text-align: center;
+}
+
+#service .title h2{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#service .title p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    max-width: 609px;
+    margin: 20px auto 56px;
+}
+
+#service .main{
+    text-align: center;
+    padding: 80px 49px 46px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+#service .main:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+#service .container .row{
+    row-gap: 24px;
+}
+
+#service .main h3{
+    margin: 40.5px 20px;
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#service .main p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* ============================================ */
+
+#work{
+    padding: 149px 0 103px;
+    background: #F3F3F3;
+}
+
+#work .title{
+    text-align: center;
+}
+
+#work .title h2{
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#work .title p{
+    max-width: 609px;
+    color: var(--Dark-03, #737373);
+    text-align: center;
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 20px auto 106px;
+}
+
+#work .main{
+    text-align: center;
+    padding: 80px 49px 46px;
+    border-radius: 26px;    
+    width: 424px;
+    background: #FFF;
+}
+
+#work .main .image{
+    margin-left: -15%;
+    margin-top: -25%;
+    width: 424px;
+}
+
+#work .main .image img{
+    border-radius: 20px;
+}
+
+#work .container .row{
+    row-gap: 24px;
+}
+
+#work .main h3{
+    padding: 30px 0px;
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#work .main p{
+    margin-top: -10%;
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* =========================================== */
+
+#agenc{
+    padding: 149px 0 103px;
+}
+
+#agenc .title{
+    text-align: center;
+}
+
+#agenc .title h2{
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#agenc .title p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    max-width: 802px;
+    margin: 20px auto 130px;
+}
+
+#agenc .container .row .main .top{
+    margin: 87px 0;
+}
+
+#agenc .container .row .main .bottom{
+    margin: 87px 0;
+}
+
+#agenc .container .row .main{
+    position: relative;
+}
+
+#agenc .container .row .main .top .text h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#agenc .container .row .main .top .text p{
+    color: var(--Dark-03, #737373);
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+#agenc .container .row .col-lg-4 .main .top .text{
+    padding: 20px 0;
+}
+
+#agenc .container .row .col-lg-4 .main .bottom .text{
+    padding: 20px 0;
+}
+
+#agenc .container .row .main .bottom .text h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#agenc .container .row .main .bottom .text p{
+    color: var(--Dark-03, #737373);
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+#agenc .container .row .main .top2 .text2 h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#agenc .container .row .main .top2 .text2 p{
+    color: var(--Dark-03, #737373);
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/* 
+#agenc .container .row .main .top2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+} */
+
+#agenc .container .row .col-lg-4 .main .bottom2{
+    position: absolute;
+    top: 385px;
+    left: -107%;
+}
+
+
+#agenc .container .row .main .bottom2 .text2 h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#agenc .container .row .main .bottom2 .text2 p{
+    color: var(--Dark-03, #737373);
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+#agenc .container .row .main .bottom1 .text2 h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#agenc .container .row .main .bottom1 .text2 p{
+    color: var(--Dark-03, #737373);
+
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+#agenc .container .row .col-lg-4 .image1{
+    border-radius: 20px;
+    position: absolute;
+    top: 315rem;
+    left: 70%;
 }
