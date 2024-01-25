@@ -16,9 +16,37 @@ a{
 }   
 
 .container{
-    width: 1320px;
+    max-width: 1344px;
     margin: 0 auto;
 }    
+
+.title{
+    text-align: center;
+}
+
+.title h2{
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    
+    /* Paragraph  */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    max-width: 802px;
+    margin: 20px auto 130px;
+}
 
 /* ====================================== */
 
@@ -177,7 +205,7 @@ a{
 
 #banner2 .overlay{
     background: rgba(0, 0, 0, 0.6);
-    padding: 277px 0 272px;
+    padding: 367px 0 272px;
 }
 
 #banner2 .container button{
@@ -564,46 +592,6 @@ line-height: 120%; /* 24px */
     padding: 149px 0 103px;
 }
 
-#agenc .title{
-    text-align: center;
-}
-
-#agenc .title h2{
-    color: var(--Dark-01, #151515);
-    text-align: center;
-    font-family: Inter;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-#agenc .title p{
-    color: var(--Dark-03, #737373);
-    text-align: center;
-    
-    /* Paragraph  */
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    max-width: 802px;
-    margin: 20px auto 130px;
-}
-
-#agenc .container .row .main .top{
-    margin: 87px 0;
-}
-
-#agenc .container .row .main .bottom{
-    margin: 87px 0;
-}
-
-#agenc .container .row .main{
-    position: relative;
-}
-
 #agenc .container .row .main .top .text h3{
     color: var(--Dark-01, #151515);
     font-family: Inter;
@@ -622,14 +610,7 @@ line-height: 120%; /* 24px */
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
-}
-
-#agenc .container .row .col-lg-4 .main .top .text{
-    padding: 20px 0;
-}
-
-#agenc .container .row .col-lg-4 .main .bottom .text{
-    padding: 20px 0;
+    max-width: 344px;
 }
 
 #agenc .container .row .main .bottom .text h3{
@@ -650,9 +631,10 @@ line-height: 120%; /* 24px */
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+    max-width: 344px;
 }
 
-#agenc .container .row .main .top2 .text2 h3{
+#agenc .container .row .main .top2 .text h3{
     color: var(--Dark-01, #151515);
     font-family: Inter;
     font-size: 25px;
@@ -661,7 +643,7 @@ line-height: 120%; /* 24px */
     line-height: normal;
 }
 
-#agenc .container .row .main .top2 .text2 p{
+#agenc .container .row .main .top2 .text p{
     color: var(--Dark-03, #737373);
 
     /* Paragraph  */
@@ -670,22 +652,10 @@ line-height: 120%; /* 24px */
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
-}
-/* 
-#agenc .container .row .main .top2{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-} */
-
-#agenc .container .row .col-lg-4 .main .bottom2{
-    position: absolute;
-    top: 385px;
-    left: -107%;
+    max-width: 344px;
 }
 
-
-#agenc .container .row .main .bottom2 .text2 h3{
+#agenc .container .row .main .bottom2 .text h3{
     color: var(--Dark-01, #151515);
     font-family: Inter;
     font-size: 25px;
@@ -694,7 +664,7 @@ line-height: 120%; /* 24px */
     line-height: normal;
 }
 
-#agenc .container .row .main .bottom2 .text2 p{
+#agenc .container .row .main .bottom2 .text p{
     color: var(--Dark-03, #737373);
 
     /* Paragraph  */
@@ -703,33 +673,124 @@ line-height: 120%; /* 24px */
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+    max-width: 344px;
 }
 
-#agenc .container .row .main .bottom1 .text2 h3{
-    color: var(--Dark-01, #151515);
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+#agenc .container .row .main .bottom{
+    padding-top: 88px; 
 }
 
-#agenc .container .row .main .bottom1 .text2 p{
-    color: var(--Dark-03, #737373);
-
-    /* Paragraph  */
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
+#agenc .container .row .main .bottom2{
+    padding-top: 95px;
 }
 
 #agenc .container .row .col-lg-4 .image1{
     border-radius: 20px;
-    position: absolute;
-    top: 315rem;
-    left: 70%;
+    margin-right: 105px;
 }
 
 /* =============================================================== */
+
+#review{
+    padding: 106px 0;
+}
+
+#review .container{
+    max-width: 1368px;
+}
+
+#review .main_slider .review_item{
+    background: transparent;
+    width: 424px !important;
+    height: 422px;
+    margin: 0 12px;
+    padding: 0 59px;
+    transition: .4s;
+}
+
+#review .main_slider .review_item .coma{
+    padding-top: 54px;
+}
+
+#review .main_slider .slick-center{
+    background: #F4EFEF;
+    padding-bottom: 54px;
+    border-radius: 30px;
+}
+
+#review .main_slider{
+    position: relative;
+}
+
+#review .main_slider .right{
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background: #4756DF;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+#review .main_slider .left{
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background: #4756DF;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+#review .container .main_slider .review_item .p1{
+    color: var(--Dark-03, #7B7B7B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    max-width:  300px;
+    margin: 0;
+    padding: 35px 0 17px 0;
+}
+
+#review .container .main_slider .review_item .text{
+    margin: -15% 20%;
+}
+
+#review .container .main_slider .review_item .text h3{
+    color: var(--Dark-01, #232323);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+#review .container .main_slider .review_item .client .text p{
+    color: var(--Dark-03, #7B7B7B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+#review .container .main_slider .review_item .icon i{
+    color: gold;
+    padding-bottom: 34px;
+}
