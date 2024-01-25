@@ -699,7 +699,7 @@ line-height: 120%; /* 24px */
     max-width: 1368px;
 }
 
-#review .main_slider .review_item{
+#review .container .main_slider .review_item{
     background: transparent;
     width: 424px !important;
     height: 422px;
@@ -708,8 +708,12 @@ line-height: 120%; /* 24px */
     transition: .4s;
 }
 
-#review .main_slider .review_item .coma{
+#review .container .main_slider .review_item .coma{
     padding-top: 54px;
+}
+
+#review .container .main_slider .review_item:hover{
+    transform: scale(0.9);
 }
 
 #review .main_slider .slick-center{
@@ -718,11 +722,11 @@ line-height: 120%; /* 24px */
     border-radius: 30px;
 }
 
-#review .main_slider{
+#review .container .main_slider{
     position: relative;
 }
 
-#review .main_slider .right{
+#review .container .main_slider .right{
     position: absolute;
     cursor: pointer;
     width: 40px;
@@ -739,7 +743,7 @@ line-height: 120%; /* 24px */
     color: #FFF;
 }
 
-#review .main_slider .left{
+#review .container .main_slider .left{
     position: absolute;
     cursor: pointer;
     width: 40px;
